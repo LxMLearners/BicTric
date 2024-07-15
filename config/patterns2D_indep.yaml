@@ -1,0 +1,24 @@
+DATA_FILE: ""
+TOP_FOLDER: ""
+TARGET: ""
+CS_STRATEGY: ""
+DISCRETIZATION: False
+PATTERNS_3D: False
+STAGES: False
+FEATURE_SELECTION: False
+STATIC_FEATURES:
+  {
+    "Gender": "categorical",
+    "Age_onset": "continuos",
+    "UMNvsLMN": "categorical",
+    "C9orf72": "categorical",
+  }
+TEMPORAL_FEATURES:
+  {
+    "ALSFRS-R": "categorical",
+    "ALSFRSb": "categorical",
+    "ALSFRSsUL": "categorical",
+    "ALSFRSsLL": "categorical",
+    "R": "categorical",
+    "%FVC": "continuos",
+  }
